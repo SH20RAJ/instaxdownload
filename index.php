@@ -27,7 +27,7 @@ if(isset($_GET['url'])) {
 <body>
     <h1>Instax - Instagram Downloader</h1>
     <form action="" method="get">
-        <input type="text" name="url" id="">
+        <input type="text" name="url" id="" placeholder="https://www.instagram.com/p/CMM9uxALsjc/">
         <button type="submit">GRAB</button>
     </form>
 
