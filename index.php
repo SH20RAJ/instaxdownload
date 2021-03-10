@@ -25,11 +25,44 @@ if(isset($_GET['url'])) {
     <title>InstaxDownload</title>
 </head>
 <body>
+    <h1>Instax - Instagram Downloader</h1>
     <form action="" method="get">
         <input type="text" name="url" id="">
         <button type="submit">GRAB</button>
     </form>
-    <hr>
-    <?php echo $html ; ?>
+
+    <div class="images">
+       <?php echo $html ; ?> 
+    </div>
+    <style>
+        *{
+            padding : 8px;
+            margin : 4px ;
+            color : rgb(241, 85, 64);
+        }
+        a {
+            text-decoration : none ;
+            background : aqua ;
+            display : inline-block;
+            
+        }
+        body {
+            text-align : center ;
+            background: rgb(203, 238, 255);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        input ,button{
+            background : none ;
+            font-size: 35px ;
+            border : 0;
+            background: blanchedalmond;
+            border-radius : 8px;
+            outline:none ;
+
+        }
+        form {
+        }
+    </style>
+    
 </body>
 </html>
